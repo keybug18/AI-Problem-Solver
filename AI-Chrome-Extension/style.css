@@ -1,0 +1,36 @@
+/* Improved Styling for Code Blocks */
+pre.code-block {
+    background-color: #2e3440; /* Dark theme background */
+    border: 1px solid #4c566a; /* Subtle border */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    padding: 15px; /* Generous padding for readability */
+    overflow-x: auto; /* Scrollable for long lines */
+    font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Programmer-friendly font */
+    font-size: 14px; /* Maintain readable size */
+    line-height: 1.6; /* Proper line spacing */
+    color: #d8dee9; /* Soft text color for dark theme */
+    margin: 15px 0; /* More spacing between blocks */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for Inline Code */
+code.inline-code {
+    background-color: #eceff4; /* Light background for inline code */
+    border: 1px solid #d8dee9; /* Subtle border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 3px 6px; /* Slight padding for visibility */
+    font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Programmer-friendly font */
+    font-size: 13px; /* Slightly smaller for inline code */
+    color: #bf616a; /* Contrast text color for emphasis */
+}
+
+/* Optional: Additional Hover Effects for Interactive Feel */
+pre.code-block:hover {
+    background-color: #3b4252; /* Slightly darker on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+code.inline-code:hover {
+    background-color: #d8dee9; /* Slightly darker on hover */
+    color: #2e3440; /* Invert color for contrast */
+}
